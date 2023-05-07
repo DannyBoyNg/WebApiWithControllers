@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorsExample", "CorsExample\CorsExample.csproj", "{DD12AD8F-5C42-41AB-9F86-C5FA1E414E55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CorsExample", "CorsExample\CorsExample.csproj", "{DD12AD8F-5C42-41AB-9F86-C5FA1E414E55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateLimitingExample", "RateLimitingExample\RateLimitingExample.csproj", "{B23B4B33-AE63-480E-8006-FE034EAE831C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RateLimitingExample", "RateLimitingExample\RateLimitingExample.csproj", "{B23B4B33-AE63-480E-8006-FE034EAE831C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalErrorHandlerExample", "GlobalErrorHandlerExample\GlobalErrorHandlerExample.csproj", "{700A50E8-3996-4D6B-BFEB-2E97F560637C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlobalErrorHandlerExample", "GlobalErrorHandlerExample\GlobalErrorHandlerExample.csproj", "{700A50E8-3996-4D6B-BFEB-2E97F560637C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthenticationExample", "JwtAuthenticationExample\JwtAuthenticationExample.csproj", "{2CE1BACF-B2E6-493F-B264-C69391F841EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtAuthenticationExample", "JwtAuthenticationExample\JwtAuthenticationExample.csproj", "{2CE1BACF-B2E6-493F-B264-C69391F841EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityHeadersExample", "SecurityHeadersExample\SecurityHeadersExample.csproj", "{7E272E3D-C644-47AA-B8CF-9D1B52E01DC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2CE1BACF-B2E6-493F-B264-C69391F841EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CE1BACF-B2E6-493F-B264-C69391F841EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CE1BACF-B2E6-493F-B264-C69391F841EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E272E3D-C644-47AA-B8CF-9D1B52E01DC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E272E3D-C644-47AA-B8CF-9D1B52E01DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E272E3D-C644-47AA-B8CF-9D1B52E01DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E272E3D-C644-47AA-B8CF-9D1B52E01DC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

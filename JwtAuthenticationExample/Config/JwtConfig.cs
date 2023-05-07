@@ -66,15 +66,15 @@ namespace JwtAuthenticationExample.Config
         {
             get
             {
+                //https://learn.microsoft.com/en-us/aspnet/core/security/authorization/claims
+                //https://learn.microsoft.com/en-us/aspnet/core/security/authorization/policies
                 return options =>
                 {
-                    //https://learn.microsoft.com/en-us/aspnet/core/security/authorization/claims
-                    //https://learn.microsoft.com/en-us/aspnet/core/security/authorization/policies
                     //Using just claims
                     options.AddPolicy("EmployeeOnly", policy => policy.RequireClaim("EmployeeNumber")); //Policy passed as long as the EmployeeNumber claim is present on the token
                     options.AddPolicy("Founders", policy => policy.RequireClaim("EmployeeNumber", "1", "2", "3", "4", "5")); //Policy passed as long as EmployeeNumber is 1, 2, 3, 4 or 5
                     //Using requirements
-                    options.AddPolicy("AtLeast21", policy => policy.Requirements.Add(new MinimumAgeRequirement(21))); //You need to implement a handler to handle the requirement. A handler may handle multiple requirements. Don't forget to register the handlers with the DI container in Program.cs
+                    options.AddPolicy("AtLeast21", policy => policy.Requirements.Add(new MinimumAgeRequirement(21))); //You need to implement a handler to handle the requirement. A handler may handle multiple requirements. Don't forget to register the handlers with the DI container as a singleton in Program.cs
                     //Using assertions
                     options.AddPolicy("BadgeEntry", policy => policy.RequireAssertion(context => context.User.HasClaim(c => c.Type == "BadgeId" || c.Type == "TemporaryBadgeId"))); //Policy passed if assertion evaluates to true
                 };
