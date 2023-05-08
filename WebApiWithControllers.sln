@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlobalErrorHandlerExample",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtAuthenticationExample", "JwtAuthenticationExample\JwtAuthenticationExample.csproj", "{2CE1BACF-B2E6-493F-B264-C69391F841EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityHeadersExample", "SecurityHeadersExample\SecurityHeadersExample.csproj", "{7E272E3D-C644-47AA-B8CF-9D1B52E01DC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecurityHeadersExample", "SecurityHeadersExample\SecurityHeadersExample.csproj", "{7E272E3D-C644-47AA-B8CF-9D1B52E01DC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientExample", "HttpClientExample\HttpClientExample.csproj", "{0BDA5B6D-8455-4834-8049-6E171F80ECDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{7E272E3D-C644-47AA-B8CF-9D1B52E01DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E272E3D-C644-47AA-B8CF-9D1B52E01DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E272E3D-C644-47AA-B8CF-9D1B52E01DC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BDA5B6D-8455-4834-8049-6E171F80ECDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BDA5B6D-8455-4834-8049-6E171F80ECDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BDA5B6D-8455-4834-8049-6E171F80ECDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BDA5B6D-8455-4834-8049-6E171F80ECDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
